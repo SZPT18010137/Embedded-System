@@ -10,3 +10,9 @@ Descripton : This Project is worked for learning *STM32CubeMX*.
 
 Item       :
 1. LED Flash
+2. Button Control LED
+3. Button Control LED By EXTI
+4. Send And Receive Data By USART
+5. Timing By Timer
+6. Generate PWM By Timer
+7. Get Voltage By ADC
