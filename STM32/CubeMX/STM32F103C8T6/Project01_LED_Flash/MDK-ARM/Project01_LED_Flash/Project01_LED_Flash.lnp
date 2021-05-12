@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"project01_led_flash\startup_stm32f103xb.o"
+"project01_led_flash\main.o"
+"project01_led_flash\gpio.o"
+"project01_led_flash\stm32f1xx_it.o"
+"project01_led_flash\stm32f1xx_hal_msp.o"
+"project01_led_flash\stm32f1xx_hal_gpio_ex.o"
+"project01_led_flash\stm32f1xx_hal_tim.o"
+"project01_led_flash\stm32f1xx_hal_tim_ex.o"
+"project01_led_flash\stm32f1xx_hal.o"
+"project01_led_flash\stm32f1xx_hal_rcc.o"
+"project01_led_flash\stm32f1xx_hal_rcc_ex.o"
+"project01_led_flash\stm32f1xx_hal_gpio.o"
+"project01_led_flash\stm32f1xx_hal_dma.o"
+"project01_led_flash\stm32f1xx_hal_cortex.o"
+"project01_led_flash\stm32f1xx_hal_pwr.o"
+"project01_led_flash\stm32f1xx_hal_flash.o"
+"project01_led_flash\stm32f1xx_hal_flash_ex.o"
+"project01_led_flash\stm32f1xx_hal_exti.o"
+"project01_led_flash\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Project01_LED_Flash\Project01_LED_Flash.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Project01_LED_Flash.map" -o Project01_LED_Flash\Project01_LED_Flash.axf
